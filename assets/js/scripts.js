@@ -36,7 +36,7 @@ const toggleSubmenu = () => {
     // Timeout para abrir el modal automáticamente
     setTimeout(() => {
         modal.style.display = 'flex';
-    }, 6500);
+    }, 65000000);
 
     // Evento para abrir el modal al hacer clic en "Editar Información"
     editBtn.onclick = () => {

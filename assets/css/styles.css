@@ -167,6 +167,11 @@ button[type="submit"]:hover {
 }
 
 
+.home{
+    background-image: url(../img/fondo.jpg);
+    width: 100vw;
+    height: 100vh;
+}
 
 /* ----------RESPONSIVE----------- */
 
@@ -217,8 +222,10 @@ button:active {
 
 
 h3 {
+    margin: 0;
+    padding: 50px;
     position: relative;
-    color: #000000; /* Color del texto */
+    color: #fff; /* Color del texto */
     font-size: 3.5em; /* Tamaño de fuente */
     white-space: nowrap; /* Evitar el salto de línea */
     overflow: hidden; /* Ocultar el texto que se sale del contenedor */
