@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tango Software - Edicion Limitada</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- JavaScript -->
+     <script src="assets/js/scripts.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <a href="#inicio"><img src="assets/img/TS_H-white.png" alt="Tango Software"></a>
+        <ul>
+            <li><a href="#incio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li>
+                <a href="#servicios" onclick="toggleSubmenu()">Servicios</a>
+                <ul class="submenu">
+                    <li><a href="#">Envios Masivos</a></li>
+                    <li><a href="#">Ingresos Personalizados</a></li>
+                    <li><a href="#">Indumentaria</a></li>
+                </ul>
+            </li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <a href="">
+            <i id="editBtn" class="fa fa-pencil" aria-hidden="true"></i>
+        </a>
+    </nav>
+    <main>
+        <section id="incio">
+            <h3 id="animatedHeader">CONECTATE CON <br>TODO Y VENDE <br>MÁS<span>&#160;</span></h3>
+
+            
+
+            <div id="userInfo"></div> <!-- Aquí se mostrará la información ingresada -->
+
+    
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Ingrese sus datos</h2>
+            <form id="userForm">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="surname">Apellido:</label>
+                <input type="text" id="surname" name="surname" required>
+                <br><br>
+                <button type="submit">Confirmar</button>
+            </form>
+        </div>
+    </div> 
+        </section>
+    </main>
+    
+
+</body>
+</html>
