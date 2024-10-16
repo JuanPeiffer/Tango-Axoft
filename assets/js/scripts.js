@@ -26,10 +26,6 @@ const toggleSubmenu = () => {
 
 
 
-
-
-
-
   document.addEventListener('DOMContentLoaded', () => {
     const modal = document.getElementById('myModal');
     const closeBtn = document.querySelector('.close');
@@ -37,7 +33,7 @@ const toggleSubmenu = () => {
     const userInfo = document.getElementById('userInfo');
     const editBtn = document.getElementById('editBtn');
 
-    // Timeout para abrir el modal automáticamente después de 1.5 segundos
+    // Timeout para abrir el modal automáticamente
     setTimeout(() => {
         modal.style.display = 'flex';
     }, 6500);
@@ -79,8 +75,6 @@ const toggleSubmenu = () => {
         }
     };
 });
-
-
 
 
 
