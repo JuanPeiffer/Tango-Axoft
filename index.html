@@ -33,8 +33,11 @@
 <body>
     <nav>
         <a href="#inicio"><img src="assets/img/TS_H-white.png" alt="Tango Software"></a>
-        <ul>
-            <li><a href="#incio">Inicio</a></li>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
             <li><a href="#nosotros">Nosotros</a></li>
             <li>
                 <a href="#servicios" onclick="toggleSubmenu()">Servicios</a>
@@ -45,10 +48,9 @@
                 </ul>
             </li>
             <li><a href="#contacto">Contacto</a></li>
+            <a href=""><i id="editBtn" class="fa fa-pencil" aria-hidden="true"></i></a>
         </ul>
-        <a href="">
-            <i id="editBtn" class="fa fa-pencil" aria-hidden="true"></i>
-        </a>
+        
     </nav>
     <main>
         <section id="incio" class="home">

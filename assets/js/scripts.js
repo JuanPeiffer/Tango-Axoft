@@ -1,4 +1,8 @@
-// Función para mostrar/ocultar el submenú con animación
+function toggleMenu() {
+    const navLinks = document.querySelector('ul');
+    navLinks.classList.toggle('visible');
+}
+
 const toggleSubmenu = () => {
     const submenu = document.querySelector('.submenu');
     const isVisible = submenu.classList.contains('visible');
