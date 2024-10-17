@@ -39,3 +39,20 @@ navegador, ya puede verse correctamente.
 1. **Clonar el repositorio**:
    ```bash
    git clone https://github.com/JuanPeiffer/Tango-Axoft.git
+2. **Abrir archivo index.html**:
+    Y listo!
+
+### **Funcionalidades Clave**
+- **Animación de texto (Máquina de escribir)**: Efecto animado que simula el tipeo de texto en la página principal.
+- **Menú desplegable**: Un menú interactivo para navegar entre las secciones del sitio.
+- **Modal de usuario**: Un formulario modal que permite al usuario ingresar su nombre y apellido, mostrando un mensaje de bienvenida en el inicio del sitio.
+- **Animaciones al hacer scroll**: Las imágenes de las empresas asociadas tienen un efecto de fade in mientras el usuario navega por la página.
+
+### **Autor**
+**Juan Pablo Peiffer**
+
+## **Conecta Conmigo**
+
+- [LinkedIn](https://www.linkedin.com/in/juanpablopeiffer)  
+- [GitHub](https://github.com/juanpeiffer)  
+- [Sitio Web](https://juanpeiffer.com.ar)
