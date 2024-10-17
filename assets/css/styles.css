@@ -77,6 +77,93 @@ a:hover{
     margin: 10px;
 }
 
+/* ------------- */
+.empresas{
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+    position: relative; 
+    box-shadow: inset 10px 10px 100px 10px #000;
+}
+.empresas h2 {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #333;
+    margin: 0 !important;
+    padding-bottom: 25px;
+}
+
+.office img{
+    width: 40%;
+    border-radius: 20px;
+}
+/* ----------IMG----------- */
+
+
+.nosotros {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+    position: relative; 
+}
+
+.nosotros h2 {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.nosotros p{
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-size: 1.6em;
+    color: #d3d3d3;
+    line-height: 1.5;
+}
+.text{
+    width: 80%;
+    margin: auto;
+}
+.logo-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logo-item {
+    width: 150px;
+    height: 100px;
+    /* overflow: hidden; */
+    transition: transform 0.3s ease;
+}
+
+.logo-item img {
+    width: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.logo-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Efecto Parallax */
+.nosotros {
+    background: url('../img/fondo2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Media Queries para ajustar la sección en móviles */
+@media (max-width: 768px) {
+    .logo-item {
+        width: 100px;
+        height: 70px;
+    }
+}
+
 
 /* ----------HEADER---------- */
 
@@ -133,8 +220,9 @@ h3::after {
     font-style: normal;
     font-size: 17px;
 }
-h2{
-    margin: 15px;
+.name_surname{
+    position: absolute;
+    top: 85%;
 }
 
 /* Botón de cerrar */

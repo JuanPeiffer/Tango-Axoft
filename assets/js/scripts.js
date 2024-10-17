@@ -36,7 +36,7 @@ const toggleSubmenu = () => {
     // Timeout para abrir el modal automáticamente
     setTimeout(() => {
         modal.style.display = 'flex';
-    }, 65000000);
+    }, 6500);
 
     // Evento para abrir el modal al hacer clic en "Editar Información"
     editBtn.onclick = () => {
@@ -63,7 +63,7 @@ const toggleSubmenu = () => {
         const name = document.getElementById('name').value;
         const surname = document.getElementById('surname').value;
         
-        userInfo.innerHTML = `<h3>¡Bienvenido, ${name} ${surname}!</h3>`;
+        userInfo.innerHTML = `<h3 class="name_surname">¡Bienvenido, ${name} ${surname}!</h3>`;
         
         cerrarModal();
     });
@@ -96,4 +96,12 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     typeWriter(); // Inicia la función
+});
+
+
+
+// --------
+
+document.addEventListener('DOMContentLoaded', () => {
+    AOS.init();
 });
